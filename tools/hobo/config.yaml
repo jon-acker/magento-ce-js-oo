@@ -1,0 +1,14 @@
+---
+:name: magento-ce-js-oo
+:git_url: git@github.com:jon-acker/magento-ce-js-oo.git
+:seed:
+  :name: magento
+  :url: git@github.com:inviqa/hobo-seed-magento
+  :version: 106faaa
+:vm_ip: 10.189.100.13
+:hostname: magento-ce-js-oo.dev
+:asset_bucket: inviqa-assets-magento-ce-js-oo
+:vm:
+  :project_mount_path: "/vagrant"
+:magento_edition: community
+:magento_version: 1.9.0.1
